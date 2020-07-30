@@ -7,17 +7,20 @@
     <style>
 
       body{
-        background-image: url("yoda.gif");
-        background-repeat: no-repeat;
-        background-position: top;
-        margin-top: 350px;
-        margin-bottom: 75px;
-        margin-right: 75px;
-        margin-left: 75px;
         background-color: #1f2421;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
       }
-
+      
+        .Center { 
+          position: fixed; 
+          background-image: url("yoda.gif");
+          background-repeat: no-repeat;
+          top: 50%; 
+          left: 50%; 
+          margin-top: -100px; 
+          margin-left: -100px; 
+        } 
+      
       #mainHeading{
         text-align: center;
         color: #c1c9c5;
@@ -34,6 +37,7 @@
 
   <body>
 <!-- HEADING  -->
+    <div class="Center"></div>
     <h1 id="mainHeading">content coming soon...</h1>
     <h6 id="nameRunner">Zach Van Cleef</h6>
   </body>
